@@ -24,6 +24,8 @@ hs_err_pid*
 replay_pid*
 
 
-idea/
 .idea/
-.idea/*
+target/
+.syndicate
+logs/
+.syndicate-config-*/
