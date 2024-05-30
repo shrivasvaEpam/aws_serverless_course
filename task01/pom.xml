@@ -41,20 +41,6 @@
             <artifactId>gson</artifactId>
             <version>2.11.0</version>
         </dependency>
-        <dependency>
-            <groupId>demo.custom.sdk</groupId>
-            <artifactId>commons-lang3-downloaded-library</artifactId>
-            <version>3.14.0</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/commons-lang3-3.14.0.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>demo.custom.sdk</groupId>
-            <artifactId>gson-downloaded-library</artifactId>
-            <version>2.11.0</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/gson-2.11.0.jar</systemPath>
-        </dependency>
     </dependencies>
 
     <build>
@@ -117,8 +103,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>15</source>
-                    <target>15</target>
+                    <source>17</source>
+                    <target>17</target>
                 </configuration>
             </plugin>
         </plugins>
