@@ -28,7 +28,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/vivek/learn/aws/lambda/task01/lib",
+    "last_opened_file_path": "C:/vivek/learn/aws/lambda",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -37,6 +37,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\vivek\learn\aws\lambda" />
       <recent name="C:\vivek\learn\aws\lambda\task01\lib" />
       <recent name="C:\vivek\learn\aws\lambda\task02" />
     </key>
