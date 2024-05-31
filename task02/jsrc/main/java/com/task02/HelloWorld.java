@@ -44,7 +44,7 @@ public class HelloWorld implements RequestHandler<APIGatewayV2HTTPEvent, APIGate
     }
 
     private APIGatewayV2HTTPResponse notFoundResponse(APIGatewayV2HTTPEvent requestEvent) {
-        return buildResponse(SC_NOT_FOUND, "Bad request syntax or unsupported method. Request path: %s. HTTP method: %s".formatted( getPath(requestEvent),getMethod(requestEvent)));
+        return buildResponse(400, "Bad request syntax or unsupported method. Request path: %s. HTTP method: %s".formatted( getPath(requestEvent),getMethod(requestEvent)));
 
     }
 
