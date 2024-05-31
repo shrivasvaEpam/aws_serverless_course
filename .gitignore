@@ -30,3 +30,4 @@ target/
 .syndicate
 logs/
 .syndicate-config-*/
+/.idea/
